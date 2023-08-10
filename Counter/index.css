@@ -1,0 +1,44 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("./font/OpenSans.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em;
+    font-family: OpenSans, sans-serif;
+    background-color: #89a99e;
+    color: #fff;
+}
+
+.counterTitle {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.counterNumber {
+    font-size: 30px;
+}
+
+.decrementButton, .resetButton, .incrementButton {
+    width: 10em;   
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+}
+
+.decrementButton, .resetButton, .incrementButton {
+    background-color:#89a99e;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.decrementButton:hover, 
+.resetButton:hover, 
+.incrementButton:hover {
+    background-color: #fff;
+    color: #000;
+}
